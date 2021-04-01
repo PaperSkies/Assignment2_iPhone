@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Assignment 2</title>
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/apps.css">
+        <link rel="stylesheet" href="css/buttons.css">
+        <link rel="stylesheet" href="css/music-app.css">
+        <link rel="stylesheet" href="css/notes-app.css">
+    </head>
+
+    <body>
+        <div id="iphone-container">
+                <div id="iphone-dropshadow"></div>
+            <img class="iphone" src="images/iphone.png" width="500" />
+            
+            <div id="screen-container">
+                <div id="screen-wrapper">
+
+                    <div id="black-cover"></div>
+
+                    <img class="notification-bar" src="images/Bar.svg">
+                    <img class="wifi" src="images/wifi.svg">
+
+                    
+                    <div id="clock" style="
+                                            font-size: 13px;
+                                            position: absolute;
+                                            z-index: 99999;
+                                            color: white;
+                                            margin: auto;
+                                            top: 2px;
+                                            left: 0;
+                                            right: 0;
+                                            width: max-content;
+                                            display: flex;
+                                            font-family: 'ProximaRounded', sans-serif;
+                                        "
+                    ></div>
+                    
+
+
+
+                    <img id="background" src="images/background.svg" width="350px">
+            
+                    <img id="music-app" class="app" src="images/musicapp.svg">
+                    <img id="notes-app" class="app" src="images/notesapp.svg">
+
+                    <button class="phone-buttons" id="power-button"></button>
+                    <button class="phone-buttons" id="home-button"></button>
+
+
+                    <!-- Music App Screen -->
+                    <div id="music-page-container">
+
+                        <img class="music-app-background" src="images/musicappbackground.svg" width="350px">
+                        <img id="cover" src="images/datasphere.jpg">
+
+                        <h2 id="song-title">Datasphere</h2>
+                        <h4 id="artist">Paper Skies</h4>
+
+                        <div id="music-player">
+                            <img id="next-button" src="images/rightbutton.svg">
+                            <img id="play-button" src="images/playbutton.svg">
+                            <img id="previous-button" src="images/leftbutton.svg">    
+                        </div>
+                    </div>
+
+                    <!-- Notes App Screen -->
+                    <div id="notes-page-container">
+
+                            <img id="notes-app-background" src="images/notesbackground.svg">
+                            <h2 contenteditable id="headline">
+                                How it works!
+                            </h2>
+                            <br/>
+                            
+                            <h3 contenteditable id="textbox">
+                                Welcome! You're currently using the new iPhone 70x(s), the first virtual iPhone you can use through your brain. Right now, we've begun development on our music player which is fully functional in switching between your favorite tunes. Our notes app is highly capable, with a full editing kit to write down all your complex emotions and thoughts. Have fun hitting the home button to navigate to our professional grade homescreen featuring full intensive java script animation.
+                            </h3>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <audio controls="false" style="opacity: 0" src="audio/datasphere/datasphere.mp3" type="audio/mpeg" />
+        <canvas id="oscilloscope"/>
+    </body>
+
+    <script type="text/javascript" src="./clock.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="./musicPlayer.js"></script>
+
+    <noscript>Please enable javascript to use this website</noscript>
+</html>

@@ -1,0 +1,25 @@
+{
+    "recommendations": [
+        "juanmnl.vscode-theme-1984",
+        "stevencl.adddoccomments",
+        "aaron-bond.better-comments",
+        "codespaces-contrib.codeswing",
+        "naumovs.color-highlight",
+        "pucelle.vscode-css-navigation",
+        "bceskavich.theme-dracula-at-night",
+        "mhutchie.git-graph",
+        "github.vscode-pull-request-github",
+        "ms-vscode.vscode-typescript-next",
+        "achil.vscode-javascript-repl",
+        "alekangelov.alek-kai-theme",
+        "kube.theme-kay",
+        "ziyasal.vscode-open-in-github",
+        "christian-kohler.path-intellisense",
+        "alefragnani.project-manager",
+        "wallabyjs.quokka-vscode",
+        "henoc.svgeditor",
+        "wayou.vscode-todo-highlight",
+        "emmanuelbeziat.vscode-great-icons",
+        "lanly-dev.spectrogram"
+    ]
+}

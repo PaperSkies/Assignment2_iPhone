@@ -1,0 +1,30 @@
+.phone-buttons {
+    position: absolute;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+    z-index: 15;
+    border: none;
+}
+
+#power-button {
+    height: 70px;
+    width: 20px;
+    
+    right: -35px;
+    top: 60px;
+
+    opacity: 0;
+}
+
+#home-button {
+    height: 50px;
+    width: 50px;
+    
+    bottom: -73px;
+    right: 0px;
+    left: 0px;
+
+    border-radius: 100%;
+    opacity: 0;
+}

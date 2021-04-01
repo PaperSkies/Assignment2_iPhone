@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@395&family=Open+Sans&display=swap');
+
+#music-page-container {
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    
+    opacity: 0;
+    transition: 0.1s;
+    transform: scale(0, 0);
+    
+    z-index: 9;
+}
+
+.music-app-background {
+    position: absolute;
+    z-index: 0;
+    top: -46px;
+}
+
+#cover {
+    width: 80%;
+    
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px 1px #0005;
+} 
+
+#music-player {
+    width: 545px;
+    height: 100px;
+
+    position: absolute;
+    margin: auto;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Effects all img tags inside #music-player */
+#music-player img {
+    width: 50px;
+}
+
+#play-button, #pause-button {
+    position: absolute;
+    cursor: pointer;
+    z-index: 200;
+    transition: .5s;
+    margin: auto;
+    left: 0;
+    right: 202px;
+}
+
+#next-button {
+    position: absolute;
+    cursor: pointer;
+    left: 240px;
+    bottom: 28px;
+}
+
+#previous-button {
+    position: absolute;
+    cursor: pointer;
+    right: 440px;
+    bottom: 28px
+}
+
+#song-title {
+    font-family: 'Dosis', sans-serif;
+    font-variation-settings: 'wght' 200;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    margin: 21rem auto 0 auto;
+    width: max-content;
+    letter-spacing: .1rem;
+}
+
+#artist {
+    color: white;
+    font-size: 17px;
+    position: relative;
+    margin: .5rem auto 0 auto;
+    width: max-content;
+    letter-spacing: .1rem;
+    font-family: 'Dosis', sans-serif;
+}

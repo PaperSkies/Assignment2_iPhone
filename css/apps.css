@@ -1,0 +1,40 @@
+.app {
+    width: 75px;
+
+    position: relative;
+    cursor: pointer;
+
+    transform: scale(0);
+    animation-delay: 50ms;
+
+    z-index: 14;
+}
+
+#music-app {
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+#notes-app {
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+
+
+/* App Icon Animation */
+
+.pop {
+    animation: pop .4s forwards;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0, 0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
